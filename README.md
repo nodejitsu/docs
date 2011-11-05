@@ -19,11 +19,11 @@ Browse /articles/ folder or http://docs.nodejitsu.com
 
 ### To generate the docs
 
-    node bin/docs generate
+    blacksmith generate
     
 ### To start the docs server
 
-    node bin/docs serve
+    blacksmith preview
 
 
 ## Contribution Guide

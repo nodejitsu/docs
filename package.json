@@ -8,19 +8,6 @@
   },
   "author": "Nodejitsu <info@nodejitsu.com>",
   "dependencies": {
-    "async": "0.1.x",
-    "github-flavored-markdown": "1.0.x",
-    "traverse": "0.4.x",
-    "mkdirp": "0.0.x",
-    "http-server": "0.2.4",
-    "jsdom": "0.2.x",
-    "weld": "0.2.1",
-    "findit": "0.1.x",
-    "nconf": "0.4.3",
-    "colors": "*",
-    "optimist": "0.2.x",
-    "wordwrap": "0.0.x",
-    "rss": "0.0.x",
-    "hashish": "0.0.x"
+    "http-server": "0.2.4"
   }
 }
