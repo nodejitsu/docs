@@ -4,7 +4,7 @@
   "description": "The node documentation project",
   "version": "0.0.0",
   "scripts": {
-    "start": "bin/docs serve"
+    "start": "bin/server"
   },
   "author": "Nodejitsu <info@nodejitsu.com>",
   "dependencies": {
