@@ -6,7 +6,7 @@ Many of the functions in Node.js core have both synchronous and asynchronous ver
 
 As a quick example comparing and contrasting the two, using `fs.readFile`:
 
-    fs = require('fs');
+    var fs = require('fs');
 
     fs.readFile('example.file', 'utf8', function (err, data) {
         if (err) {
