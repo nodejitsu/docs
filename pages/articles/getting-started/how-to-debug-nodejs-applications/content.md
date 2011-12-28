@@ -7,7 +7,7 @@ Thankfully, through the use of `node-inspector`, we can harness to power of the 
 
 First, ensure that node-inspector is installed:
 
-    npm-g install node-inspector
+    npm install node-inspector -g
 
 A good example application to experiment with is a basically 'hello world' server with a counter (copied from the `node-inspector` repo):
 
