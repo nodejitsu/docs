@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var HTTPServer = require('http-server').HTTPServer;
 
 var httpServer = new HTTPServer({root: './public/'});

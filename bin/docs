@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var argv = require("optimist").argv,
     path = require("path"),
     docs = require("../lib/docs");
@@ -36,3 +37,4 @@ switch (task) {
     console.log("* blacksmith serve <folder>");
     console.log();
 }
+
