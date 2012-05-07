@@ -8,7 +8,8 @@
   },
   "author": "Nodejitsu Inc. <info@nodejitsu.com>",
   "maintainers": [
-    "jesusabdullah <josh@nodejitsu.com>"
+    "Marak <marak@nodejitsu.com>",
+    "pgte <pedro@nodejitsu.com>"
   ],
   "dependencies": {
     "async": "0.1.x",
