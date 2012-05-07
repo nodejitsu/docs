@@ -6,7 +6,10 @@
   "scripts": {
     "start": "bin/server"
   },
-  "author": "Nodejitsu <info@nodejitsu.com>",
+  "author": "Nodejitsu Inc. <info@nodejitsu.com>",
+  "maintainers": [
+    "jesusabdullah <josh@nodejitsu.com>"
+  ],
   "dependencies": {
     "async": "0.1.x",
     "github-flavored-markdown": "1.0.x",
@@ -24,3 +27,4 @@
     "hashish": "0.0.x"
   }
 }
+
