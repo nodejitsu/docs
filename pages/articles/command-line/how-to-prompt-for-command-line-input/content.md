@@ -1,4 +1,3 @@
-
 So you've got a little CLI tool, but you want to be able to prompt a user for additional data after the script has started, rather than passing it in as a command line argument or putting it in a file.  To do this, you'll need to listen to STDIN ("standard input", i.e. your keyboard), which Node.js exposes for you as `process.stdin`, a readable stream.
 
 Streams are Node's way of dealing with evented I/O - they're a big topic, and you can read more about them (here).  For now, we're only going to deal with the Stream methods relevant to working with `process.stdin` so as to keep the examples easy.
@@ -9,10 +8,11 @@ Here's a simple example.  Try the following in a new file:
 
       process.stdin.resume();
       process.stdin.setEncoding('utf8');
+      var util = require('util');
       
       process.stdin.on('data', function (text) {
-        console.log(text);
-        if (text === 'quit') {
+        console.log('received data:', util.inspect(text));
+        if (text === 'quit\n') {
           done();
         }
       });
