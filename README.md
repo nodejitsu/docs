@@ -17,13 +17,17 @@ docs.nodejitsu.com is an [open source project](http://github.com/nodejitsu/docs)
 
 Browse /articles/ folder or http://docs.nodejitsu.com
 
+### Install blacksmith
+
+    npm i blacksmith@0.0.13 -g
+
 ### To generate the docs
 
-    node bin/docs generate
+    blaksmith generate pages
     
 ### To start the docs server
 
-    node bin/docs serve
+    blacksmith serve pages
 
 
 ## Contribution Guide
