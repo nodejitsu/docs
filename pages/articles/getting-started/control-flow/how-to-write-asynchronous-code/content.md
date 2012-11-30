@@ -58,6 +58,7 @@ The reason this happens is because each timeout is created and then `i` is incre
            console.log(i);
          }, i);
        })(i);
+    }
 
 This gives the proper output:
 
