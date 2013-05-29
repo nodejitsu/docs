@@ -9,7 +9,7 @@
     exports.message = "hi";
 
     exports.say = function () {
-      console.log(message);
+      console.log(exports.message);
     }
 
 So if you run `var example = require('./example.js')`, then `example.js` will get evaluated and then `example` be an object equal to:
@@ -26,8 +26,8 @@ If you want to set the exports object to a function or a new object, you have to
     }
 
     require('./example2.js')() //require itself and run the exports object
-    
-It is worth noting that each time you subsequently require an already-required file, the `exports` object is cached and reused. To illustrate this point: 
+
+It is worth noting that each time you subsequently require an already-required file, the `exports` object is cached and reused. To illustrate this point:
 
     node> require('./example.js')
     evaluating example.js
