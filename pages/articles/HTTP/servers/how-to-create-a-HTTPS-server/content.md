@@ -1,3 +1,7 @@
+*If you're using [Nodejitsu](http://nodejitsu.com)*, we handle HTTPS for you. Free SSL on jit.su and nodejitsu.com subdomains, and SSL on custom domains for business customers.
+*It's never necessary to create an HTTPS server yourself.*
+
+- - -
 
 To create an HTTPS server, you need two things: an SSL certificate, and Node's built-in `https` module.
 
