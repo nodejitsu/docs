@@ -23,7 +23,7 @@ Browse /articles/ folder or http://docs.nodejitsu.com
 
 ### To generate the docs
 
-    blaksmith generate pages
+    blacksmith generate pages
     
 ### To start the docs server
 
