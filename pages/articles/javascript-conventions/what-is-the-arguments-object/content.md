@@ -24,7 +24,7 @@ properties of `arguments`.
 This construct is very useful and gives javascript functions a lot of
 flexibility. But there is an important gotcha. The `arguments` object
 behaves like an array, but it is not an actual array. It does not have
-Array in it's prototype chain and it does not respond to any array
+Array in its prototype chain and it does not respond to any array
 methods, e.g. `arguments.sort()` raises a TypeError. Instead you need to
 copy the values into a true array first. Since a normal for loop
 works, this is pretty easy.
