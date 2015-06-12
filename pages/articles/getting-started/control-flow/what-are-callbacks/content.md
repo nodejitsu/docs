@@ -15,7 +15,7 @@ The node.js way to deal with the above would look a bit more like this:
       fetchData(function (err, data) {
         if (err) {
           console.log("An error has occured. Abort everything!");
-          callback(err);
+          return callback(err);
         }
         data += 1;
         callback(data);
