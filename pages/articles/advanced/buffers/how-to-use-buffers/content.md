@@ -73,7 +73,7 @@ Again, the first argument is the encoding. In this case, it can be seen that not
 
 #### Individual octets:
 
-You can also set individual bits by using an array-like syntax:
+You can also set individual bytes by using an array-like syntax:
 
     > buffer[12] = buffer[11];
     33
